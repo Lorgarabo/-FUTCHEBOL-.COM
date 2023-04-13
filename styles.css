@@ -1,0 +1,444 @@
+*{margin: 0; padding:0 ;}
+body {
+   
+    background-image: url(https://es.besoccer.com/media/img/bg_field_vertical.png);
+    background-position: center top;
+    background-color: green;
+    background-repeat: no-repeat;
+    margin: 0;
+    font-family: 'Merriweather', serif;
+   
+}
+
+
+#title {
+margin-top: 2cm;
+text-align: center;
+}
+
+
+
+#SUB {
+
+  text-align: center;
+  margin-top: 8cm;
+  font-size: 40px;
+  }
+
+
+
+
+  
+  nav {
+
+    position: relative;
+  
+    
+    }
+.nav-menu {
+ 
+
+ 
+overflow: hidden;
+background-color: aliceblue;
+margin-bottom: 20px;
+
+display: flex;
+width: 31.5cm;
+
+
+
+
+
+position: absolute;
+top: 50%;
+  left: 50%;
+  margin-top: -5cm;
+  transform: translate(-50%, -50%);
+}
+  
+
+
+a {
+color: #020101;
+text-decoration: none;
+font-size: 15px;
+
+justify-content: space-between;
+
+
+padding:3cm ;
+padding-top: 1cm;
+padding-bottom: 1cm;
+text-align: center;
+}
+
+ul {
+
+list-style: none;
+margin-right: 3cm;
+}
+
+
+
+nav a:visited {
+  color: #020101;
+}
+
+nav a:hover {
+  color: white;
+  background-color: black;
+}
+
+nav a:active {
+  background-color: black;
+  color: white;
+}
+
+
+
+
+
+
+
+
+.container{
+  width: 90%;
+
+  max-width: 1000px;
+ margin: auto;
+ display: flex;
+margin-top: 4cm;
+
+}
+
+  
+.logobig{
+ 
+
+padding: 1CM;
+  width: 14cm;
+  height: 14cm;
+padding-left: 5CM;
+  margin-top:2.3cm;
+  margin-right: 1cm;
+  
+  float:right;
+}
+
+  .logobig img {
+      
+  transition: .5s ease;
+}
+
+.logobig img:hover {
+  cursor: pointer;
+width: 400px;
+  opacity: 1;
+  filter: contrast(120%);
+  transform: scale(1.2);
+}
+
+
+ iframe{
+width:14cm ;
+  margin-left: 1cm;
+margin-top: 2.7cm;
+float:left;
+
+}
+
+
+
+
+
+
+section {
+
+    display: flex;
+    width: 900px;
+    height: 400px;
+
+padding-top: 1cm;
+margin: auto;
+  }
+  
+  section img {
+    
+    width: 0px;
+    flex-grow: 1;
+    object-fit: cover;
+    opacity: .99;
+    transition: .5s ease;
+   
+  }
+  
+
+  section img:hover {
+    cursor: pointer;
+    width: 350px;
+    opacity: 1;
+    filter: contrast(120%);
+  }
+
+
+  
+  .conta{
+    width: 90%;
+    max-width: 1000px;
+   margin: auto;
+   margin-TOP: 3CM;
+  
+
+text-align: center;
+
+  background-color: aliceblue;
+
+border:30px solid aliceblue; 
+border-left-width: 3cm;
+border-right-width:1.9cm;
+border-bottom-width:0.85cm;
+padding-top: 1cm;
+  }
+  .instagram {
+    width: 1.5cm;
+    max-width: 1000px;
+  }.face {
+    width: 1.5cm;
+    max-width: 1000px;
+  }.twite{
+    width: 1.5cm;
+    max-width: 1000px;
+  }
+
+
+ /* PAG 2 */
+
+
+
+  .wrapper2 {
+    width: 90%;
+    max-width: 1000px;
+   margin: auto;
+padding-right: 4.7cm;
+margin-top: 5;
+   
+  }
+  #SUB2 {
+
+    text-align: center;
+    margin-bottom:3cm;
+    font-size: 40px;
+    }
+
+    #div1 {
+      overflow-x: hidden;
+      overflow-y: scroll;
+      height: 20cm;
+      width: 12cm;
+      float: right;
+      margin-top: 2.5cm;
+      margin-right: -4cm;
+    }
+    
+    #div1 table {
+      background-color: lightgray;
+      table-layout: fixed;
+      width: auto;
+    }
+    
+    /* Ocultar la barra de desplazamiento vertical */
+    #div1::-webkit-scrollbar {
+      width: 0.5em;
+      height: 0.5em;
+    }
+    
+    
+    #div2 {
+      overflow:scroll;
+      
+      height:20cm;
+      width:12cm;
+      display: flex;
+      
+    
+      float:left;
+      margin-top: 2.5cm;
+      margin-left: 2cm;
+    }
+    
+    #div2 table {
+    
+     background-color:lightgray;
+    
+     table-layout: fixed;
+     width: auto;
+    
+    }
+    
+    ::-webkit-scrollbar {
+      display: none;
+    
+    }
+    
+    
+    
+    th, td {
+    
+      padding: 8px;
+      text-align: center;
+      border-bottom: 1px solid #ddd;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    border-left: 0cm;
+    
+    }
+.jamon {
+  width: 10cm;
+height: 4.5cm;
+margin-right: auto;
+
+flex-grow: 1;
+object-fit: cover;
+opacity: .99;
+transition: .5s ease;
+
+
+
+}
+.image-cell {
+  width: auto;
+}
+
+.contaN{
+ 
+  max-width: 1000px;
+ margin: auto;
+ margin-TOP: 36.59CM;
+
+
+text-align: center;
+
+background-color: aliceblue;
+
+border:30px solid aliceblue; 
+border-left-width: 3cm;
+border-right-width:1.9cm;
+border-bottom-width:0.85cm;
+padding-top: 1cm;
+}
+.instagram1 {
+  width: 3cm;
+  max-width: 1000px;
+}.face1 {
+  width: 3cm;
+  max-width: 1000px;
+}
+.twite1{
+  width: 3cm;
+  max-width: 1000px;
+}
+
+
+ /* PAG 3*/
+ .wrapper3 {
+  width: 90%;
+  max-width: 1000px;
+ margin: auto;
+
+ 
+}
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td {
+  text-align: left;
+  padding: 8px;
+}
+
+th {
+  background-color: #ddd;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+caption {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+td:first-child {
+  width: 40px;
+}
+
+td img {
+  width: 30px;
+  margin-right: 10px;
+  vertical-align: middle;
+}
+p {
+  font-size: 25px; /* Tamaño de letra de 20px */
+  text-align: center;
+  margin-top: 2cm ;
+}
+
+  
+
+.bibliografia a {
+ 
+
+ 
+  flex-direction: column;
+
+margin-top: 1.5cm;
+}
+
+li {
+  margin: 10px 0;
+  text-align: center;
+}
+
+a {
+  color: blue;
+  text-decoration: none;
+  text-align: center;
+}
+ul a {
+  color: blue;
+  text-align: center;
+}
+
+.contaNo{
+ 
+  max-width: 1000px;
+ margin: auto;
+ margin-TOP: 31cM;
+
+
+text-align: center;
+
+background-color: aliceblue;
+
+border:30px solid aliceblue; 
+border-left-width: 3cm;
+border-right-width:1.9cm;
+border-bottom-width:0.85cm;
+padding-top: 1cm;
+}
+.instagram1 {
+  width: 3cm;
+  max-width: 1000px;
+}.face1 {
+  width: 3cm;
+  max-width: 1000px;
+}
+.twite1{
+  width: 3cm;
+  max-width: 1000px;
+}
